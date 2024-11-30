@@ -1,0 +1,23 @@
+/*Schrijf hier jouw CSS*/
+
+
+.opdracht-1{
+    flex-direction: row;
+    justify-content: center;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.opdracht-2{
+    display: flex;
+
+}
+.tekst{
+    display: flex;
+    flex:500px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: inherit;
+}
