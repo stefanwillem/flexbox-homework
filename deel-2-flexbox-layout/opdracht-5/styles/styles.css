@@ -1,1 +1,36 @@
-/*Schrijf hier jouw CSS*/
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+main{
+    display: flex;
+    flex-grow: 4;
+}
+
+.art-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 4;
+}
+
+nav{
+    flex-grow: 1;
+}
+
+article{
+    flex-grow: 4;
+}
+
+aside{
+    flex-grow: 1;
+}
+
+header{
+    flex-grow: 1;
+
+}
+footer{
+    flex-grow: 1;
+}

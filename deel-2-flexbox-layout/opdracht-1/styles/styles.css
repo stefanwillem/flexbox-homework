@@ -1,1 +1,45 @@
 /*Schrijf hier jouw CSS*/
+
+
+.hooft{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+
+.content{
+    display: flex;
+    align-items: stretch;
+}
+.content-a{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    flex-grow: 2;
+
+}
+.way{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: revert;
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}

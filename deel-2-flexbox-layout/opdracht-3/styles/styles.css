@@ -1,1 +1,17 @@
-/*Schrijf hier jouw CSS*/
+
+
+
+.lichaam{
+    display: flex;
+    flex-direction:row;
+    height: 100vh;
+}/*Schrijf hier jouw CSS*/
+.raas{
+    display: flex;
+    flex-direction:row;
+
+}
+.navi-2-3{
+    flex-grow: 1;
+    height: 100vh;
+}
